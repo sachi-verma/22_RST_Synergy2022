@@ -1,0 +1,20 @@
+#bg_elex {
+  background-color: black;
+  background-image: url(/img/elex_form_bg.jpeg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#bg_mech {
+  background-color: black;
+  background-image: url(/img/mech-form-bg.PNG);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+body,
+html {
+  background-color: black;
+}

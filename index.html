@@ -1,12 +1,246 @@
-#html page
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <title>My first web page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Crescendo is an annual technical event hosted by Fr. Conceicao Rodrigues College Of Engineering.">
+    <title>CRESCENDO 2023</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- For glitch and loading effect-->
+    <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/style.css" rel="stylesheet" />
+
+    <!-- favicon-->
+    <link rel="shortcut icon" href="/img/stucologo.png" type="image/x-icon">
+
+    <!-- For social icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>My first web page</h1>
-    <p>My first paragraph.</p>
+
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#" style="margin-left: 10px; font-size: 25px; font-family: 'Shadows Into Light', cursive;">CRESCENDO 2023</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Home </a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="margin-right: 10px; margin-bottom: 10px; font-size: 20px; font-family: 'Shadows Into Light', cursive;">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Points_table/index.html" target="blank" style="margin-right: 10px; margin-bottom: 10px; font-size: 20px; font-family: 'Shadows Into Light', cursive;">Scoreboard</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Disabled</a>
+                </li> -->
+              </ul>
+            </div>
+          </nav>
+    </section>
+    
+    <section id="header">
+        
+        
+        <!-- Glitch effect --> 
+        <!-- <div id="initial-loader" class="padded"><span id="loader-text"></span></div> 
+        <!-- <div class="padded"><span id="loader-text"></span></div> 
+        <div id="main-body">
+            <section id="page-structure" class="ajax">
+                <a href="">
+                    <img class="stuco_logo" src="/img/stucologo.png" alt="stuco_logo">
+                </a>
+            </section>
+        </div>
+        <!-- End of glitch effect -->
+
+
+    </section>
+
+    
+    
+
+    <!-- 
+    <!-- End of events section -->
+
+    <section id="events">
+        <h1 class="event_heading">INTER COLLEGE EVENTS</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col event_spacing">
+                <div class="card h-100">
+                    <img src="/img/CRE.gif" class="card-img-top" alt="hackathon">
+                    <div class="card-body">
+                        <h5 class="card-title">HACKATHON</h5>
+                        <p class="card-text">A 24 hour event for students of Computers and IT Domains</p>
+                    </div>
+                    <div class="card-footer">
+                        <center>
+                            <a href="/Inter_Events_Forms/mech.html" target="_blank" rel="noopener noreferrer">
+                                <!-- <button class="button-49 btn_adjust pointer" role="button">REGISTER</button> -->
+                                <button class="button-73" role="button">Register</button>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col event_spacing">
+                <div class="card h-100">
+                    <img src="/img/CRE (2).gif" class="card-img-top" alt="mechathon">
+                    <div class="card-body">
+                        <h5 class="card-title">MECHATHON</h5>
+                        <p class="card-text mech">A 24 hour event for students of Mechanical and Production Domains</p>
+                    </div>
+                    <div class="card-footer">
+                        <center>
+                            <a href="/Inter_Events_Forms/mech.html" target="_blank" rel="noopener noreferrer">
+                                <!-- <button class="button-49 btn_adjust pointer" role="button">REGISTER</button> -->
+                                <button class="button-73" role="button">Register</button>
+
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col event_spacing">
+                <div class="card h-100">
+                    <img src="/img/CRE (1).gif" class="card-img-top" alt="elexathon">
+                    <div class="card-body">
+                        <h5 class="card-title">ELEXATHON</h5>
+                        <p class="card-text">A 24 hour event for students of Electronics and Electrical Domains</p>
+                    </div>
+                    <div class="card-footer">
+                        <center>
+                            <a href="/Inter_Events_Forms/elex.html" target="_blank" rel="noopener noreferrer">
+                                <!-- <button class="button-49 pointer" role="button">REGISTER</button> -->
+                                <button class="button-73" role="button">Register</button>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    intra code -->
+
+    <section id="intra">
+        <div class="bg_events">
+            <hr>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <center>
+
+                <div class="glass">
+                    <h2 style="display:block">INTRA COLLEGE EVENTS</h2>
+                    <h4 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Turn On The
+                        Fest Mode</h4>
+                    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><br>Venue : CRCE Campus <br></p>
+
+                    <div >
+                        <center>
+                        <!-- <a href="/Intra_Events/index.html"><span>Explore</span></a> -->
+                        <a href="/Intra_Events/index.html" rel="noopener noreferrer">
+                            <!-- <button class="button-49 pointer" role="button">REGISTER</button> -->
+                            <button class="button-64" role="button"><span class="text">Explore</span></button>
+
+                        </a>
+                    </center>
+
+                    </div>
+
+                </div>
+            </center>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+        </div>
+    </section>
+
+
+    
+
+    <!-- Footer section -->
+    <footer>
+        <section id="contact">
+            <h1 class="contact_head">CONTACT US</h1>
+
+            <br>
+
+            <div class="wrapper">
+                <ul>
+                    <li class="facebook"><a href="https://www.facebook.com/frcrce.studentscouncil" target="blank"><i
+                                class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/frcrce_official/?igshid=1xzzfigzk6x4l"
+                            target="blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/channel/UCVXm63qDorgkAXRIEh7XLjA"
+                            target="blank"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
+                    <!-- <li class="mail"><a href="https://www.youtube.com/channel/UCVXm63qDorgkAXRIEh7XLjA"
+                            target="blank"><i class="fa fa-email fa-2x" aria-hidden="true"></i></a></li> -->
+                </ul>
+            </div>
+
+            <p class="contact_text">Made with <span style="color: #e25555;">&#9829;</span> by  <a href="#"
+                    target="blank" style="color:#e25555;">Sachi Verma</a> and
+                <a href="#" target="blank" style="color:#e25555;">Taransingh Rajpal</a>
+                 - Team RST
+            </p>
+        </section>
+
+    </footer>
+    <!-- End of footer section -->
+
+    <!-- For devfolio -->
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- For glitch and loading effect-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/CopyShader.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/03_glitch.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/EffectComposer.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/RenderPass.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/ShaderPass.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/MaskPass.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/08_texturepass.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/GlitchPass.js"></script>
+    <script src="/script.js"></script>
 </body>
+
 </html>
